@@ -161,6 +161,63 @@ PAGE_TEMPLATE = """<!doctype html>
     margin-bottom: 1.8rem;
   }}
 
+  .section-label {{
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--muted);
+    margin: 0 0 0.9rem;
+  }}
+
+  .videos {{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.2rem;
+  }}
+  .video-card {{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    background: var(--card);
+    border-radius: 3px;
+    overflow: hidden;
+  }}
+  .video-card .thumb {{
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: var(--border);
+    overflow: hidden;
+  }}
+  .video-card .thumb img {{
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    filter: saturate(0.85) contrast(1.02);
+    transition: filter 0.15s ease, transform 0.2s ease;
+  }}
+  .video-card:hover .thumb img {{ filter: saturate(1.05); transform: scale(1.03); }}
+  .video-card .thumb::after {{
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 45%);
+  }}
+  .video-card .play {{
+    position: absolute; left: 0.6rem; bottom: 0.5rem; z-index: 1;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 12px;
+    border-color: transparent transparent transparent #fff;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.6));
+  }}
+  .video-card .vbody {{ padding: 0.6rem 0.75rem 0.8rem; }}
+  .video-card .vhost {{
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.68rem; color: var(--accent);
+    text-transform: uppercase; letter-spacing: 0.06em;
+    margin-bottom: 0.25rem;
+  }}
+  .video-card .vtitle {{
+    font-size: 0.82rem; line-height: 1.32;
+  }}
+
   .joke {{ margin-bottom: 1.75rem; }}
   .joke .byline {{
     font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
@@ -231,6 +288,7 @@ WEEK_TEMPLATE = """<section class="week">
     <span class="range">{date_range}</span>
   </div>
   {note_html}
+  {videos_html}
   {jokes_html}
 </section>"""
 
@@ -241,12 +299,34 @@ JOKE_TEMPLATE = """<div class="joke">
     {context_html}
   </div>"""
 
+VIDEO_TEMPLATE = """<a class="video-card" href="{url}" target="_blank" rel="noopener">
+      <div class="thumb"><span class="play"></span><img src="{thumb}" alt="" loading="lazy"></div>
+      <div class="vbody">
+        <div class="vhost">{host}</div>
+        <div class="vtitle">{title}</div>
+      </div>
+    </a>"""
+
 
 def esc(s):
     return html.escape(s or "", quote=False)
 
 
 def render_week(data):
+    videos = data.get("videos") or []
+    videos_html = ""
+    if videos:
+        cards = "\n    ".join(
+            VIDEO_TEMPLATE.format(
+                url=esc(v["url"]),
+                thumb=f'https://i.ytimg.com/vi/{esc(v["id"])}/hqdefault.jpg',
+                host=esc(v.get("host", "")),
+                title=esc(v.get("title", "")),
+            )
+            for v in videos
+        )
+        videos_html = f'<div class="section-label">Watch This Week\'s Monologues</div>\n  <div class="videos">\n    {cards}\n  </div>'
+
     jokes_html = "\n  ".join(
         JOKE_TEMPLATE.format(
             host=esc(j.get("host", "")),
@@ -267,6 +347,7 @@ def render_week(data):
         year=data["year"],
         date_range=esc(data.get("date_range", "")),
         note_html=note_html,
+        videos_html=videos_html,
         jokes_html=jokes_html,
     )
 
