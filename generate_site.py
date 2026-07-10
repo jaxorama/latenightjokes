@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
-SITE_DIR = ROOT / "site"
+SITE_DIR = ROOT / "docs"
 FONT_DIR = ROOT / "assets" / "fonts"
 
 
