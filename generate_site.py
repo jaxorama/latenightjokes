@@ -276,7 +276,7 @@ PAGE_TEMPLATE = """<!doctype html>
     <p class="deck">The sharpest lines from this week's late-night monologues — Kimmel, the Daily Show rotation, and whoever else was on the air.</p>
   </header>
   {weeks_html}
-  <footer>Compiled from public monologue coverage &middot; regenerate with <code>python generate_site.py</code></footer>
+  <footer>Compiled from public monologue coverage &middot; Jaxorama</footer>
 </main>
 </body>
 </html>
