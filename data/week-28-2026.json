@@ -2,7 +2,7 @@
   "week": 28,
   "year": 2026,
   "date_range": "July 6–12, 2026",
-  "note": "Unusually thin week: Fallon, Seth Meyers, Bill Maher, and John Oliver were all on summer break, and Colbert's Late Show has ended entirely. Jon Stewart only anchors The Daily Show on Mondays now (dark this week), so most material came from Jimmy Kimmel's slot, guest-hosted all week by Tiffany Haddish.",
+  "note": "Unusually thin week: Fallon, Seth Meyers, Bill Maher, and John Oliver were all on summer break, and Colbert's Late Show has ended entirely. Jon Stewart only anchors The Daily Show on Mondays now (dark this week), so most material came from Jimmy Kimmel's slot, guest-hosted all week by Tiffany Haddish. Also checked Byron Allen's Comics Unleashed, Graham Norton, Jonathan Ross, and John Mulaney's Everybody's Live this week: Norton and Ross are both between seasons, Mulaney's Season 2 hasn't premiered, and no quotable Comics Unleashed monologue lines surfaced beyond guest listings — so the one addition is a stray Andy Cohen zinger from Watch What Happens Live.",
   "videos": [
     {
       "id": "7lKuceG03WI",
@@ -52,6 +52,13 @@
       "topic": "White House reportedly responding to her joke from the prior night about the president's bruised hands",
       "joke": "The president is very focused on issues that matter right now, and apparently, I'm one of them.",
       "context": "Meta follow-up joke after the administration reacted to her monologue."
+    },
+    {
+      "host": "Andy Cohen",
+      "show": "Watch What Happens Live",
+      "topic": "Deflecting on-air chatter about his own age-gap relationship with boyfriend Kevin Sobieski",
+      "joke": "Don't put the camera on me... I'm only in a 16-year age-gap relationship.",
+      "context": "Ducked behind a cue card after a Next Gen NYC cast member questioned why a woman would date a man 18-plus years older."
     }
   ],
   "sources": [
@@ -59,6 +66,7 @@
     "https://www.yahoo.com/entertainment/tv/articles/tiffany-haddish-took-over-jimmy-105803758.html",
     "https://lowerbuckstimes.com/2026/07/09/tiffany-haddish-kimmel-guest-host-week/",
     "https://www.huffpost.com/entry/kimmel-tiffany-haddish-trump-world-cup_n_6a4c7f68e4b0c806bbef582b",
-    "https://www.yahoo.com/entertainment/tv/articles/kimmel-guest-host-tiffany-haddish-054405458.html"
+    "https://www.yahoo.com/entertainment/tv/articles/kimmel-guest-host-tiffany-haddish-054405458.html",
+    "https://www.realitytea.com/2026/07/10/andy-cohen-16-year-age-gap-kevin-sobieski/"
   ]
 }
