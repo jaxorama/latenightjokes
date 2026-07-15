@@ -207,6 +207,17 @@ PAGE_TEMPLATE = """<!doctype html>
     border-color: transparent transparent transparent #fff;
     filter: drop-shadow(0 1px 2px rgba(0,0,0,0.6));
   }}
+  .video-card .likes {{
+    position: absolute; right: 0.5rem; top: 0.5rem; z-index: 1;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.64rem; font-weight: 700; color: #fff;
+    background: rgba(0,0,0,0.55);
+    padding: 0.15rem 0.4rem;
+    border-radius: 2px;
+    white-space: nowrap;
+  }}
+  .video-card .likes.lots {{ background: var(--accent); }}
+  .video-card .likes.lots::before {{ content: "\\2605 "; }}
   .video-card .vbody {{ padding: 0.6rem 0.75rem 0.8rem; }}
   .video-card .vhost {{
     font-family: 'Courier Prime', monospace;
@@ -300,20 +311,32 @@ JOKE_TEMPLATE = """<div class="joke">
   </div>"""
 
 VIDEO_TEMPLATE = """<a class="video-card" href="{url}" target="_blank" rel="noopener">
-      <div class="thumb"><span class="play"></span><img src="{thumb}" alt="" loading="lazy"></div>
+      <div class="thumb"><span class="play"></span>{likes_html}<img src="{thumb}" alt="" loading="lazy"></div>
       <div class="vbody">
         <div class="vhost">{host}</div>
         <div class="vtitle">{title}</div>
       </div>
     </a>"""
 
+LOTS_OF_LIKES = 10_000  # a clip clearing this on an official late-night channel is a real hit, not just topic-matched
+
 
 def esc(s):
     return html.escape(s or "", quote=False)
 
 
+def format_count(n):
+    if n is None:
+        return None
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}".rstrip("0").rstrip(".") + "M"
+    if n >= 1_000:
+        return f"{n / 1_000:.1f}".rstrip("0").rstrip(".") + "K"
+    return str(n)
+
+
 def render_week(data):
-    videos = data.get("videos") or []
+    videos = sorted(data.get("videos") or [], key=lambda v: v.get("likes") or 0, reverse=True)
     videos_html = ""
     if videos:
         cards = "\n    ".join(
@@ -322,6 +345,11 @@ def render_week(data):
                 thumb=f'https://i.ytimg.com/vi/{esc(v["id"])}/hqdefault.jpg',
                 host=esc(v.get("host", "")),
                 title=esc(v.get("title", "")),
+                likes_html=(
+                    f'<span class="likes{" lots" if v["likes"] >= LOTS_OF_LIKES else ""}">{format_count(v["likes"])} likes</span>'
+                    if v.get("likes") is not None
+                    else ""
+                ),
             )
             for v in videos
         )
