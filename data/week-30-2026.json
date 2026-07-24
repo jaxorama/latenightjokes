@@ -1,0 +1,90 @@
+{
+  "week": 30,
+  "year": 2026,
+  "date_range": "July 20–26, 2026",
+  "note": "Dominant story of the week: Trump got booed at the FIFA World Cup Final (Spain beat Argentina) and lingered on stage during the trophy ceremony, delaying the celebration. Nearly every host built around it. Kimmel remains on break, guest-hosted this week by Colman Domingo (his debut). Fallon, Meyers, and Stewart all ran regular original episodes.",
+  "videos": [
+    {
+      "id": "ZnUKBjqEH4c",
+      "url": "https://www.youtube.com/watch?v=ZnUKBjqEH4c",
+      "host": "Seth Meyers · Jul 21",
+      "title": "Trump Booed & Embarrassed at World Cup Final, Election Speech Flops, Iran War Spirals: A Closer Look",
+      "likes": 54815
+    },
+    {
+      "id": "7ANeZ3JQVGw",
+      "url": "https://www.youtube.com/watch?v=7ANeZ3JQVGw",
+      "host": "Colman Domingo (guest host) · Jul 20",
+      "title": "Trump Gets Booed at World Cup, Right Wing Outrage at The Odyssey & Colman Domingo Styles Guillermo",
+      "likes": 20142
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Colman Domingo (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Right-wing outrage over diverse casting in Elon Musk's Grok-generated \"historically accurate\" version of The Odyssey",
+      "joke": "By 'historically accurate,' he means whiter than Christmas at Cracker Barrel.",
+      "context": "His guest-hosting debut, mocking the backlash to the AI-generated adaptation."
+    },
+    {
+      "host": "Colman Domingo (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Telling conservatives upset about diversity in The Odyssey to watch something more to their taste",
+      "joke": "If you want to see a film with a cast of all white people who are cursed by the gods, the Melania movie is currently streaming.",
+      "context": "Referencing the widely panned Melania Trump documentary."
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump getting booed at the FIFA World Cup Final trophy ceremony",
+      "joke": "At this point, I'm guessing Trump's staff tries to make him feel better by telling him he's just being followed around by ghosts. 'Mr. President, remember, no one's booing you. That's just Mitch McConnell saying hello.'",
+      "context": "Immediately clarified: \"Mitch McConnell is definitely alive\" — a callback to McConnell's hospitalization from a few weeks earlier."
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump lingering on stage during Spain's championship celebration",
+      "joke": "Rodri, the captain of the Spanish team, tried to usher Trump off the stage so they could start celebrating.",
+      "context": ""
+    },
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "Trump inserting himself into the World Cup Final broadcast",
+      "joke": "The Spain-Argentina final was like a reverse Super Bowl, where the players spoke Spanish and the halftime show was in English.",
+      "context": ""
+    },
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "Trump walking onto the field during the trophy celebration",
+      "joke": "What the f--- are you doing on the stage?! It's for the players! God damn!",
+      "context": "Reacting live to footage of Trump's stage invasion."
+    },
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "A man resembling Trump spotted behind him on the tarmac after the game",
+      "joke": "Oh my God, is that a back-up Trump?!",
+      "context": "Had producers rewind the Air Force One footage for a closer look; the man was later identified as Viktor Knavs, Melania Trump's 82-year-old father."
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "The UK getting its seventh prime minister in ten years, with Andy Burnham the latest",
+      "joke": "Can you guys just pick someone and stick to it?",
+      "context": "A recurring sketch where an actor playing each new UK PM is swapped out mid-interview for the next one, one cut later."
+    }
+  ],
+  "sources": [
+    "https://www.inquirer.com/arts/colman-domingo-jimmy-kimmel-live-guest-host-20260721.html",
+    "https://www.huffpost.com/entry/colman-dolmingo-melania-joke_n_6a5eec61e4b03e44487817fa",
+    "https://www.thedailybeast.com/obsessed/seth-meyers-nails-new-explanation-for-trumps-world-cup-boos/",
+    "https://www.rollingstone.com/tv-movies/tv-movie-news/jon-stewart-donald-trump-spain-world-cup-victory-daily-show-1235596417/",
+    "https://deadline.com/2026/07/jon-stewart-donald-trump-world-cup-1236999197/",
+    "https://www.tvinsider.com/1276733/jon-stewart-thinks-he-just-spotted-trumps-body-double/",
+    "https://www.yahoo.com/news/videos/jimmy-fallon-mocks-uk-prime-121441286.html",
+    "https://www.aol.com/articles/andy-burnham-mocked-us-chat-134750000.html"
+  ]
+}
