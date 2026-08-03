@@ -27,7 +27,7 @@ PAGE_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Monologue Ledger</title>
+<title>{page_title}</title>
 <style>
   @font-face {{
     font-family: 'Anton';
@@ -88,7 +88,81 @@ PAGE_TEMPLATE = """<!doctype html>
     -webkit-font-smoothing: antialiased;
   }}
 
-  main {{ max-width: 700px; margin: 0 auto; padding: 3.5rem 1.25rem 6rem; }}
+  .layout {{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    display: grid;
+    grid-template-columns: 170px minmax(0, 700px);
+    gap: 2.5rem;
+    align-items: start;
+  }}
+  main {{ min-width: 0; max-width: 700px; padding: 3.5rem 0 6rem; }}
+
+  .sidebar {{
+    position: sticky;
+    top: 2rem;
+    padding-top: 3.5rem;
+  }}
+  .sidebar-title {{
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--muted);
+    margin-bottom: 0.85rem;
+  }}
+  .week-link {{
+    display: block;
+    text-decoration: none;
+    color: var(--fg);
+    border-left: 2px solid var(--border);
+    padding: 0.35rem 0 0.35rem 0.65rem;
+    margin-bottom: 0.1rem;
+  }}
+  .week-link:hover {{ border-left-color: var(--accent); }}
+  .week-link .wk {{
+    font-family: 'Anton', sans-serif;
+    font-size: 0.92rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: block;
+  }}
+  .week-link .rng {{
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.65rem;
+    color: var(--muted);
+    display: block;
+    margin-top: 0.1rem;
+  }}
+  .week-link.active {{ border-left-color: var(--accent); }}
+  .week-link.active .wk {{ color: var(--accent); }}
+
+  .back-link {{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }}
+
+  @media (max-width: 760px) {{
+    .layout {{ grid-template-columns: 1fr; gap: 0; padding: 0; }}
+    .sidebar {{
+      position: static;
+      padding: 1.5rem 1.25rem 0;
+      display: flex;
+      align-items: baseline;
+      overflow-x: auto;
+      gap: 1rem;
+      -webkit-overflow-scrolling: touch;
+    }}
+    .sidebar-title {{ flex: 0 0 auto; margin-bottom: 0; }}
+    .week-link {{
+      flex: 0 0 auto;
+      border-left: none;
+      border-bottom: 2px solid var(--border);
+      padding: 0.2rem 0.05rem 0.45rem;
+      white-space: nowrap;
+    }}
+    .week-link.active {{ border-left-color: transparent; border-bottom-color: var(--accent); }}
+    main {{ padding: 1.75rem 1.25rem 6rem; }}
+  }}
 
   header.masthead {{
     text-align: center;
@@ -280,20 +354,31 @@ PAGE_TEMPLATE = """<!doctype html>
 </style>
 </head>
 <body>
-<main>
-  <header class="masthead">
-    <div class="on-air"><span class="dot"></span>Updated manually, week by week</div>
-    <h1 class="title">The Monologue Ledger</h1>
-    <p class="deck">The sharpest lines from this week's late-night monologues — Kimmel, the Daily Show rotation, and whoever else was on the air.</p>
-  </header>
-  {weeks_html}
-  <footer>Compiled from public monologue coverage &middot; Jaxorama</footer>
-</main>
+<div class="layout" id="top">
+  {sidebar_html}
+  <main>
+    <header class="masthead">
+      <div class="on-air"><span class="dot"></span>{on_air_text}</div>
+      <h1 class="title">The Monologue Ledger</h1>
+      <p class="deck">{deck_text}</p>
+    </header>
+    {back_link_html}
+    {content_html}
+    <footer>Compiled from public monologue coverage &middot; Jaxorama</footer>
+  </main>
+</div>
 </body>
 </html>
 """
 
-WEEK_TEMPLATE = """<section class="week">
+SIDEBAR_TEMPLATE = """<nav class="sidebar">
+    <div class="sidebar-title">All Weeks</div>
+    {items}
+  </nav>"""
+
+SIDEBAR_ITEM_TEMPLATE = """<a class="week-link{active_class}" href="{href}"><span class="wk">Week {week}</span><span class="rng">{date_range}</span></a>"""
+
+WEEK_TEMPLATE = """<section class="week" id="week-{year}-{week}">
   <div class="marquee">
     <span class="week-num">Week <em>{week}</em>, {year}</span>
     <span class="range">{date_range}</span>
@@ -380,25 +465,76 @@ def render_week(data):
     )
 
 
+def render_sidebar(weeks, page):
+    latest = weeks[0]
+    items = []
+    for w in weeks:
+        is_latest = w is latest
+        if is_latest:
+            href = "#top" if page == "index" else "index.html"
+        else:
+            anchor = f"week-{w['year']}-{w['week']}"
+            href = f"#{anchor}" if page == "archive" else f"archive.html#{anchor}"
+        items.append(
+            SIDEBAR_ITEM_TEMPLATE.format(
+                active_class=" active" if (is_latest and page == "index") else "",
+                href=href,
+                week=w["week"],
+                date_range=esc(w.get("date_range", "")),
+            )
+        )
+    return SIDEBAR_TEMPLATE.format(items="\n    ".join(items))
+
+
 def main():
     week_files = sorted(DATA_DIR.glob("week-*.json"))
     weeks = [json.loads(f.read_text(encoding="utf-8")) for f in week_files]
     weeks.sort(key=lambda w: (w["year"], w["week"]), reverse=True)
 
-    weeks_html = "\n  ".join(render_week(w) for w in weeks)
+    fonts = dict(
+        anton_b64=font_b64("anton-latin.woff2"),
+        courier_reg_b64=font_b64("courierprime-reg.woff2"),
+        courier_bold_b64=font_b64("courierprime-bold.woff2"),
+    )
 
     SITE_DIR.mkdir(exist_ok=True)
-    out_path = SITE_DIR / "index.html"
-    out_path.write_text(
+
+    latest, older = weeks[0], weeks[1:]
+
+    index_path = SITE_DIR / "index.html"
+    index_path.write_text(
         PAGE_TEMPLATE.format(
-            weeks_html=weeks_html,
-            anton_b64=font_b64("anton-latin.woff2"),
-            courier_reg_b64=font_b64("courierprime-reg.woff2"),
-            courier_bold_b64=font_b64("courierprime-bold.woff2"),
+            page_title="The Monologue Ledger",
+            on_air_text="Updated manually, week by week",
+            deck_text="The sharpest lines from this week's late-night monologues — Kimmel, the Daily Show rotation, and whoever else was on the air.",
+            back_link_html="",
+            sidebar_html=render_sidebar(weeks, "index"),
+            content_html=render_week(latest),
+            **fonts,
         ),
         encoding="utf-8",
     )
-    print(f"Wrote {out_path} ({len(weeks)} week(s))")
+    print(f"Wrote {index_path} (latest: week {latest['week']}, {latest['year']})")
+
+    archive_content = (
+        "\n  ".join(render_week(w) for w in older)
+        if older
+        else '<p class="note">Nothing archived yet — check back after next week\'s update.</p>'
+    )
+    archive_path = SITE_DIR / "archive.html"
+    archive_path.write_text(
+        PAGE_TEMPLATE.format(
+            page_title="Archive — The Monologue Ledger",
+            on_air_text="Every earlier week, in order",
+            deck_text="The full run of past weeks. Jump to one from the list, or head back to what's current.",
+            back_link_html='<a class="back-link" href="index.html">&larr; Back to the latest week</a>',
+            sidebar_html=render_sidebar(weeks, "archive"),
+            content_html=archive_content,
+            **fonts,
+        ),
+        encoding="utf-8",
+    )
+    print(f"Wrote {archive_path} ({len(older)} archived week(s))")
 
 
 if __name__ == "__main__":
