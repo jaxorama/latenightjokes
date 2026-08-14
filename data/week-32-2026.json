@@ -1,0 +1,53 @@
+{
+  "week": 32,
+  "year": 2026,
+  "date_range": "August 3–9, 2026",
+  "note": "Jimmy Fallon had late night almost entirely to himself this week: Kimmel remains on his annual summer break, and Seth Meyers just started what's being reported as a seven-week hiatus (his longest since taking over in 2014). No fresh quotable material surfaced from the Daily Show rotation either. The through-line was the Iran war — a Camp David cabinet meeting, disputed \"peace talks,\" and reports of dwindling U.S. missile stockpiles.",
+  "videos": [
+    {
+      "id": "7ptUm8qv7t8",
+      "url": "https://www.youtube.com/watch?v=7ptUm8qv7t8",
+      "host": "Jimmy Fallon · Aug 4",
+      "title": "Jimmy explains the U.S. & Iran negotiations in #Trump's own words",
+      "likes": 14305
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump's cabinet meeting at Camp David to strategize on the Iran war",
+      "joke": "Over the weekend Trump held a cabinet meeting at Camp David to discuss the situation in Iran. I'm not saying they're out of ideas, but the best option they came up with is pinning the war on Doctor Fauci.",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump's claims of ongoing Iran peace talks, which Iran denied were happening",
+      "joke": "So he just released some top secret audio of the negotiations that he's definitely been having.",
+      "context": "Rolled into a fake leaked call, voicing both Trump and \"Iran\": \"Hi, Mr. President. This is Iran. We'd love to negotiate. We bigly respect you.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump vowing to \"hunt down\" whoever leaked reports of dwindling U.S. missile stockpiles",
+      "joke": "They're not being hunted by missiles. We don't have 'em.",
+      "context": "Followed with: \"Right now Trump is dealing with leaks and shortages, which is actually pretty normal for an 80-year-old man.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Reports that Amazon is developing another Melania Trump docuseries, on top of the already-released Melania documentary",
+      "joke": "I just saw Melania.",
+      "context": "Joked the nonstop stream of Melania media projects means Trump can always say it, whether it's true or not."
+    }
+  ],
+  "sources": [
+    "https://latenighter.com/news/jimmy-fallon-has-late-night-mostly-to-himself-this-week/",
+    "https://www.yahoo.com/entertainment/tv/articles/jimmy-fallon-mocks-trumps-iran-121334760.html",
+    "https://parade.com/news/jimmy-fallon-unleashes-fake-secret-trump-iran-recording-in-wild-monologue",
+    "https://www.huffpost.com/entry/jimmy-fallon-donald-trump-threat-punchline_n_6a75b85de4b0e33593d2d752",
+    "https://www.mediaite.com/media/tv/jimmy-fallon-mocks-80-year-old-trumps-very-normal-problems-with-leaks-and-shortages-after-missile-report/",
+    "https://www.aol.com/articles/jimmy-fallon-mocks-trumps-more-134852000.html"
+  ]
+}
