@@ -1,0 +1,82 @@
+{
+  "week": 33,
+  "year": 2026,
+  "date_range": "August 10–16, 2026",
+  "note": "Both Seth Meyers and The Daily Show remain on their extended summer hiatuses (back September 21 and September 8 respectively), so this week was a two-hander: Kimmel's slot, guest-hosted by Anthony Anderson, and Fallon. Both converged on the same story — reports that Trump was secretly moved into an airport catering truck to switch planes after a NATO summit in Turkey over a credible Iran assassination threat.",
+  "videos": [
+    {
+      "id": "s4tqNBfYjYc",
+      "url": "https://www.youtube.com/watch?v=s4tqNBfYjYc",
+      "host": "Anthony Anderson (guest host) · Aug 11",
+      "title": "Anthony Anderson's Guest Host Monologue on Jimmy Kimmel Live",
+      "likes": 7252
+    },
+    {
+      "id": "Hq4Cr3oLNjY",
+      "url": "https://www.youtube.com/watch?v=Hq4Cr3oLNjY",
+      "host": "Jimmy Fallon · Aug 11",
+      "title": "Trump Snuck Off Air Force One in a Catering Truck After NATO Summit",
+      "likes": 6135
+    },
+    {
+      "id": "0hqlUESRwvI",
+      "url": "https://www.youtube.com/watch?v=0hqlUESRwvI",
+      "host": "Jimmy Fallon · Aug 11",
+      "title": "#Trump hid in the back of a catering truck in Turkey… at least he has ONE exit plan.",
+      "likes": 3448
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Anthony Anderson (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump being secretly moved into an airport catering truck to switch planes in Turkey",
+      "joke": "That's the same way he used to get onto Epstein's plane. Now, I'm no security expert, but if I was trying to find Donald Trump, a catering truck is the first place I'd look.",
+      "context": "Closed with: \"Next time, hide his ass in a book-mobile!\""
+    },
+    {
+      "host": "Anthony Anderson (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump's noticeably fuller hair at a recent Red Rock Casino speech",
+      "joke": "Looks like a $15 wig from Amazon.",
+      "context": ""
+    },
+    {
+      "host": "Anthony Anderson (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump defending his \"dumocrats\" nickname for Democrats",
+      "joke": "Ummm, dumb does have a 'b,' it's just silent. Like Melania on your wedding night.",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Same catering-truck story, opening the show riding in on a catering cart pushed by fake Secret Service agents",
+      "joke": "Today, everyone was like, 'Well, at least he has one exit plan.'",
+      "context": "Played Trump like a kid on a road trip, also joking Trump hid in a catering truck while Marco Rubio hid in Trump's carry-on bag."
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Air Force One flying without Trump aboard for part of the trip",
+      "joke": "Everyone knew Trump was off the plane, as it wasn't flying at its usual 45-degree angle.",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Karoline Leavitt resigning as White House press secretary after being left off the decoy plane",
+      "joke": "Apparently, she's moving on to an easier job working as the press secretary for Taylor Farms lettuce.",
+      "context": "Setup: \"Karoline Leavitt was definitely one of the staffers left on Air Force One. It's like, 'Oh, really? You didn't take me?'\" — the lettuce reference doubled as a jab at Taylor Farms' ongoing cyclospora recall."
+    }
+  ],
+  "sources": [
+    "https://www.mediaite.com/media/tv/anthony-anderson-guest-hosts-jimmy-kimmel-roasts-trump-for-air-force-one-swap-same-way-he-used-to-get-onto-epsteins-plane/",
+    "https://www.tvinsider.com/1280692/kimmel-guest-host-anthony-anderson-dissects-trumps-weird-new-hair/",
+    "https://www.huffpost.com/entry/anthony-anderson-melania-trump-joke_n_6a7abacbe4b07b8d6224b04c",
+    "https://uk.news.yahoo.com/jimmy-fallon-jokes-trumps-airport-121758227.html",
+    "https://www.morninghoney.com/p/at-least-he-has-an-exit-plan-jimmy-fallon-mocks-trump-for-hiding-in-a-catering-truck-amid-irans-threat",
+    "https://parade.com/news/jimmy-fallon-roasts-karoline-leavitt-with-taylor-farms-job-joke-on-tonight-show",
+    "https://thoughtcatalog.com/jeremy-london/2026/08/jimmy-fallon-says-karoline-leavitt-is-moving-on-to-an-easier-job-as-press-secretary-for-taylor-farms-lettuce/"
+  ]
+}
