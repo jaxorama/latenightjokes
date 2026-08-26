@@ -1,0 +1,52 @@
+{
+  "week": 34,
+  "year": 2026,
+  "date_range": "August 17–23, 2026",
+  "note": "Seth Meyers and The Daily Show remain dark through September. Kimmel's slot went to Rosie O'Donnell for a four-night run — her first time back in a late-night host chair in nearly 30 years — while Fallon carried on solo the rest of the week. No official YouTube uploads matched this week's best lines closely enough to link with confidence, so this entry is text-only.",
+  "jokes": [
+    {
+      "host": "Rosie O'Donnell (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Opening her four-night run in Kimmel's chair",
+      "joke": "If you thought the president hated Jimmy Kimmel Live! when it was hosted by Jimmy Kimmel… buckle up, people. Buckle up.",
+      "context": "Followed by explaining she's spent the last two years living in Ireland \"because of Mango Mussolini... I read that Project 2025 and said, 'Gotta get myself out of here!' and decided to go to Ireland, where people are driven to drink regardless of who's running their country.\""
+    },
+    {
+      "host": "Rosie O'Donnell (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Closing her guest-hosting run with a Trump-roasting parody of \"Danny Boy\"",
+      "joke": "Oh, Donny boy, it's Rosie, Rosie calling from Hollywood, the Jimmy Kimmel show. Drop that Big Mac that we all know you're holding.",
+      "context": "Continued through the whole ballad: \"Poor Donny boy, your polls, your polls are falling, your reflecting pool is green as Mountain Dew... your wig's a mess, your ballroom is appalling, and with Iran, you bit off more than you can chew.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Melania Trump not appearing in public for 29 days",
+      "joke": "All I know is that it's going to be crazy when we find out she ran off with Mitch McConnell.",
+      "context": "Also got a big audience reaction with: \"I haven't seen her in private for two years.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump's friendship with Kim Jong Un and talk of another meeting",
+      "joke": "You know you're depressed when you're texting an old hookup from seven years ago.",
+      "context": "Said the two \"could meet in November,\" depending on \"how their couple's Halloween costume goes.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump's unproven claim that \"vandals\" damaged the National Mall grass and Reflecting Pool",
+      "joke": "These are tough times for Trump. The grass is brown. The Reflecting Pool is green. And the bruise on his hand is blue.",
+      "context": "Followed with a hair joke riffing on the same \"cover it up\" logic: \"He's gonna let the healthy grass grow long and then rake it over to the bare spot. Just cover it. You comb it right over.\""
+    }
+  ],
+  "sources": [
+    "https://consequence.net/2026/08/rosie-odonnell-jimmy-kimmel/",
+    "https://variety.com/2026/tv/news/rosie-o-donnell-hosts-jimmy-kimmel-live-slams-trump-1236836907/",
+    "https://www.thedailybeast.com/obsessed/rosie-odonnell-hits-trump-where-it-hurts-in-scathing-parody-song/",
+    "https://www.mediaite.com/media/tv/rosie-odonnell-caps-her-kimmel-guest-host-run-with-parody-of-irish-ballad-mocking-trump-oh-donny-boy/",
+    "https://www.yahoo.com/entertainment/tv/articles/jimmy-fallon-reflecting-pool-joke-011901355.html",
+    "https://parade.com/news/jimmy-fallon-jokes-melania-trump-ran-off-with-mitch-mcconnell",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-fallon-reacts-trump-kim-jong-un-meet-up-plan/"
+  ]
+}
