@@ -1,0 +1,44 @@
+{
+  "week": 35,
+  "year": 2026,
+  "date_range": "August 24–30, 2026",
+  "note": "Fallon aired reruns this week, and Meyers and The Daily Show remain dark through September, so this week belonged entirely to Kimmel's guest host: country singer Jelly Roll. His Trump jokes drew a week of conservative backlash, which he addressed head-on in a tearful, unusually sincere monologue on his final night. No official YouTube upload matched closely enough to link with confidence.",
+  "jokes": [
+    {
+      "host": "Jelly Roll (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Opening night, joking about reports of Trump's weight gain and sinking approval ratings",
+      "joke": "A lot of doctors are worried about Trump's weight. I lost an entire Donald Trump [losing 300 pounds himself] — and based on his approval ratings, it seems like most of the country wants to do the same thing.",
+      "context": "The line, plus later comments calling Trump \"full of s—,\" set off a week of backlash from conservative media."
+    },
+    {
+      "host": "Jelly Roll (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump doubling down on 50% tariffs against Canada, which could raise prices on everything from whiskey to toilet paper",
+      "joke": "It's going to be a real World War Two-ply.",
+      "context": "Added: \"There is something poetic about it being so expensive to wipe our a** just because the president's full of s—!\""
+    },
+    {
+      "host": "Jelly Roll (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "A Jeopardy! clip in which three contestants drew a total blank trying to identify him",
+      "joke": "I look more like a guy getting a DUI on a tractor.",
+      "context": "Later, addressing Trump directly: \"Mr. President, from one fat pig to another, take it from me that physical fitness is very important.\""
+    },
+    {
+      "host": "Jelly Roll (guest host)",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Closing his guest-hosting run by finally addressing the week of backlash over his Trump jokes",
+      "joke": "My daddy always told me it is never too late to do the right thing. So I'm going to try to do the right thing, right now, because human dignity isn't Republican nor Democrat. Compassion isn't left-wing and mercy isn't right-wing.",
+      "context": "Choked back tears closing an 18-minute monologue that moved from jokes into a sincere statement of his politics and faith."
+    }
+  ],
+  "sources": [
+    "https://stereogum.com/2509607/jelly-roll-makes-first-political-comments-may-no-longer-be-welcome-in-florida-panhandle/news",
+    "https://www.thedailybeast.com/obsessed/jelly-roll-has-message-for-fans-threatening-boycott-over-trump-joke/",
+    "https://www.mediaite.com/media/tv/jelly-roll-jokes-trump-is-waging-world-war-2-ply-as-toilet-paper-prices-climb-in-canada-tariff-dispute/",
+    "https://www.billboard.com/music/music-news/jelly-roll-completes-kimmel-hosting-rousing-monologue-1236327091/",
+    "https://www.thewrap.com/creative-content/tv-shows/jelly-roll-fights-back-tears-addresses-political-labels-jimmy-kimmel-live-monologue/",
+    "https://www.rollingstone.com/music/music-news/jelly-roll-politics-grammys-kimmel-monologue-1235617235/"
+  ]
+}
