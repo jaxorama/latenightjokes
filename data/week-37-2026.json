@@ -1,0 +1,59 @@
+{
+  "week": 37,
+  "year": 2026,
+  "date_range": "September 7–13, 2026",
+  "note": "Late night came back to life this week. The Daily Show ended its five-week summer hiatus with Jon Stewart hosting a rare Tuesday episode (Labor Day pushed his usual Monday slot back a day); Fallon returned too, just in time for the GOP's midterm convention in Dallas. Kimmel remains dark and Seth Meyers is still out until September 21.",
+  "videos": [
+    {
+      "id": "GX-pNtRAj00",
+      "url": "https://www.youtube.com/watch?v=GX-pNtRAj00",
+      "host": "Jimmy Fallon · Sep 9",
+      "title": "Trump Tries to Bribe His Way into GOP Midterm Win During Two-Hour-Long Speech",
+      "likes": 4769
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "Returning from a five-week break and catching up on everything Trump did in August (rolling back childhood vaccine requirements, threatening to demolish the Kennedy Center, attacking mail-in voting)",
+      "joke": "God, it never ends with this dude Trump. I've never seen one person work so much and fix so little.",
+      "context": "His first episode back, and a rare Tuesday hosting slot since Labor Day bumped his usual Monday."
+    },
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "A viral trailer for Nathan Fielder's Elizabeth Holmes documentary \"You Can See Everything\"",
+      "joke": "Why would I deceive you? There's no — there's no reason for me to do that.",
+      "context": "Superimposed Trump's face onto Fielder's body in the doctored trailer, using it to compare Trump aide Natalie Harp — nicknamed \"the human printer\" for constantly feeding him positive news printouts — to Holmes."
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump promising every American $5,000 if Republicans sweep the midterms",
+      "joke": "I know that sounds like a bribe. In Trump's defense, he's never going to pay us, so technically it's not a bribe.",
+      "context": "Part of his coverage of the GOP's midterm convention in Dallas."
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump's two-hour address at the convention",
+      "joke": "Two hours is not so much a speech — that's a residency.",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "An Air Force One emergency slide accidentally deploying, delaying Trump's flight to the convention and forcing him to wait aboard Marine One",
+      "joke": "Once again, Trump is causing more inflation.",
+      "context": ""
+    }
+  ],
+  "sources": [
+    "https://latenighter.com/news/jon-stewart-daily-show-rare-tuesday-return-september-8-2026/",
+    "https://deadline.com/2026/09/jon-stewart-donald-trump-aide-natalie-harp-elizabeth-holmes-1237071830/",
+    "https://variety.com/2026/tv/news/jon-stewart-nathan-fielder-you-can-see-everything-trump-1236855432/",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-fallon-trump-bribe-monologue-jokes/",
+    "https://ca.news.yahoo.com/jimmy-fallon-says-trump-5-134402057.html"
+  ]
+}
