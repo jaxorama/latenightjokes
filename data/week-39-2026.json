@@ -1,0 +1,75 @@
+{
+  "week": 39,
+  "year": 2026,
+  "date_range": "September 21–27, 2026",
+  "note": "Seth Meyers came back from a record seven-week break (Season 14 premiere, September 21) into a week dominated by Trump banning CNN, MS NOW, and Politico from the White House press pool, his tense run-in with CNN's Kaitlan Collins at the UN, and Xi Jinping's state visit to Washington. Kimmel, Fallon, and Stewart all piled on.",
+  "videos": [
+    {
+      "id": "k6WLJ5co3PE",
+      "url": "https://www.youtube.com/watch?v=k6WLJ5co3PE",
+      "host": "Jon Stewart · Sep 21",
+      "title": "White House Bans Media Outlets & MAGA Embraces AI While Demonizing Immigrants",
+      "likes": 130888
+    },
+    {
+      "id": "qY1HkfsLZ3E",
+      "url": "https://www.youtube.com/watch?v=qY1HkfsLZ3E",
+      "host": "Seth Meyers · Sep 23",
+      "title": "Trump Faces GOP Backlash for Xi Visit, Snaps at CNN's Kaitlan Collins, Threatens Iran: A Closer Look",
+      "likes": 43326
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "The White House banning CNN, MS NOW, and Politico from the press pool over \"fake news\"",
+      "joke": "Have you tried presidenting better? You could ban the press, or you could be a better f---ing president. I mean, give the press something to work with.",
+      "context": "The ban backfired right away: other outlets stood with the banned ones and skipped covering Trump's event that day."
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump's angry reaction to seeing CNN's Kaitlan Collins at the UN",
+      "joke": "He sounds like he's complaining about an ex showing up at his favorite restaurant. 'We agreed when we broke up that I got Emilio's! I can't enjoy my linguine when I'm looking at your lying face!'",
+      "context": "Said Rubio and Vance had insisted it was \"not a ban on the free press — just a ban from the White House.\""
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "The White House calling a press badge \"special access\"",
+      "joke": "It's a press badge to cover a government official. You're talking about it like they had backstage passes to a Grateful Dead concert.",
+      "context": "Opened with: \"First of all, it's not his White House.\""
+    },
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "The press ban, and Trump's new TV network struggling to find viewers",
+      "joke": "News organizations asked the court to restore their access to the White House, and interestingly, Melania filed a brief to get her out.",
+      "context": "Also ran a mock ad for the network, poking at its dwindling ratings."
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump visibly flinching as planes flew over Xi Jinping's welcome ceremony",
+      "joke": "It's like he just saw his approval rating!",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Xi's state dinner at the White House",
+      "joke": "Trump walked into the dining room and said, 'Where the hell is Xi?' The staffer said, 'The president of China is right there. If you're talking about Melania, we have no idea.'",
+      "context": ""
+    }
+  ],
+  "sources": [
+    "https://www.mediaite.com/media/tv/jon-stewart-offers-trump-a-radical-alternative-to-a-white-house-press-ban-have-you-tried-presidenting-better/",
+    "https://thehill.com/blogs/in-the-know/6103689-jon-stewart-trump-media-ban-daily-show/",
+    "https://www.thewrap.com/creative-content/tv-shows/seth-meyers-mocks-trump-dramatic-reaction-kaitlan-collins-un/",
+    "https://www.realitytea.com/2026/09/24/seth-meyers-donald-trump-kaitlan-collins-angry-ex/",
+    "https://www.tvinsider.com/1292930/jimmy-kimmel-laughs-at-donald-trump-over-failed-tv-network/",
+    "https://www.thedailybeast.com/obsessed/jimmy-fallon-exposes-how-fast-trumps-dictator-suck-up-fell-flat/",
+    "https://latenighter.com/news/late-night-this-week-september-21-2026/"
+  ]
+}

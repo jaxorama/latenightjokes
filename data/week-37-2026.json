@@ -2,7 +2,7 @@
   "week": 37,
   "year": 2026,
   "date_range": "September 7–13, 2026",
-  "note": "Late night came back to life this week. The Daily Show ended its five-week summer hiatus with Jon Stewart hosting a rare Tuesday episode (Labor Day pushed his usual Monday slot back a day); Fallon returned too, just in time for the GOP's midterm convention in Dallas. Kimmel remains dark and Seth Meyers is still out until September 21.",
+  "note": "Late night came back to life this week. The Daily Show ended its five-week summer hiatus with Jon Stewart hosting a rare Tuesday episode (Labor Day pushed his usual Monday slot back a day); Kimmel and Fallon returned too, just in time for the GOP's midterm convention in Dallas. Seth Meyers is still out until September 21.",
   "videos": [
     {
       "id": "GX-pNtRAj00",
@@ -13,6 +13,13 @@
     }
   ],
   "jokes": [
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Kimmel's own first night back from his summer break (Sep 8), on how little Trump got done while he was gone",
+      "joke": "Donald Trump and I have one thing in common. We both accomplished nothing all summer long.",
+      "context": "Followed with a jab that the only thing Trump did get done was his hair."
+    },
     {
       "host": "Jon Stewart",
       "show": "The Daily Show",
@@ -54,6 +61,7 @@
     "https://deadline.com/2026/09/jon-stewart-donald-trump-aide-natalie-harp-elizabeth-holmes-1237071830/",
     "https://variety.com/2026/tv/news/jon-stewart-nathan-fielder-you-can-see-everything-trump-1236855432/",
     "https://www.thewrap.com/creative-content/tv-shows/jimmy-fallon-trump-bribe-monologue-jokes/",
-    "https://ca.news.yahoo.com/jimmy-fallon-says-trump-5-134402057.html"
+    "https://ca.news.yahoo.com/jimmy-fallon-says-trump-5-134402057.html",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-insults-trump-nothing-got-done-all-summer-monologue/"
   ]
 }

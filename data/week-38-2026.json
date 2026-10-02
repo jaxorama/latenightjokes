@@ -1,0 +1,51 @@
+{
+  "week": 38,
+  "year": 2026,
+  "date_range": "September 14–20, 2026",
+  "note": "Emmys week. Kimmel and The Daily Show went dark Monday for the ceremony, where The Late Show with Stephen Colbert won Outstanding Variety Series; the next night Colbert made his first late-night appearance since the finale, as Kimmel's guest. Meyers was still on hiatus until September 21, and no fresh quotable lines surfaced from the Daily Show's guest-host nights, so Fallon carried most of the week. No official YouTube upload matched closely enough to link with confidence.",
+  "jokes": [
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Stephen Colbert appearing as his guest the night after beating Kimmel for the Variety Series Emmy",
+      "joke": "Don't tell Donald Trump. If he knows there are two of us here, he could call in an airstrike, or SEAL Team Six, or who the hell knows what.",
+      "context": "Colbert's first late-night return since The Late Show's finale in May; Kimmel also joked about losing the Emmy to him, and Colbert shaved his post-show beard on air."
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump promising to keep AI \"under control,\" after earlier bragging about acing his cognitive tests",
+      "joke": "We're relying on Trump to beat AI. I don't even think Trump can beat Wordle.",
+      "context": "Set up with Trump's own line: \"I'd like to see ChatGPT pick out a zebra on a cognitive test. I don't think so, buddy.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump awarding cabinet members points for campaign visits, with the winner getting dinner with him",
+      "joke": "Dinner with Trump is a very unique experience. The Secret Service gives you a poncho and warns you that you're in the 'splash zone.'",
+      "context": "Also: \"I'm not sure watching Trump eat is the reward he thinks it is.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump telling a North Carolina crowd that high gas prices are a small price to pay for the Iran war",
+      "joke": "Last night in North Carolina, Trump said high gas prices are a very low price to pay for the war. Then his teleprompter said, 'Hold for booing.'",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump threatening to tear down the Kennedy Center after it wouldn't carry his name",
+      "joke": "Usually when Trump is demolishing something on Air Force One, it's a bucket of KFC.",
+      "context": ""
+    }
+  ],
+  "sources": [
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-warns-not-tell-trump-stephen-colbert-guest/",
+    "https://www.hollywoodreporter.com/tv/tv-news/stephen-colbert-jimmy-kimmel-live-interview-1236703294/",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-fallon-reacts-trump-dismissing-ai-concerns/",
+    "https://www.irishstar.com/culture/entertainment/jimmy-fallon-tonight-show-trump-37647275",
+    "https://www.thewrap.com/culture-lifestyle/culture/tonight-show-jimmy-fallon-trump-kennedy-center-bad-shape/",
+    "https://latenighter.com/news/late-night-this-week-september-14-emmys/"
+  ]
+}
