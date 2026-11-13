@@ -1,0 +1,95 @@
+{
+  "week": 41,
+  "year": 2026,
+  "date_range": "October 5–11, 2026",
+  "note": "Midterm campaign season took over. Trump's rally swing, his Iran remarks about \"taking out\" Los Angeles and San Diego, a White House ban on international election monitors, and his Nobel Peace Prize hopes gave Kimmel, Fallon, and Meyers plenty to work with, while Jon Stewart spent his Monday on AI and the tech billionaires.",
+  "videos": [
+    {
+      "id": "S18jxWZntUo",
+      "url": "https://www.youtube.com/watch?v=S18jxWZntUo",
+      "host": "Jon Stewart · Oct 5",
+      "title": "Jon Stewart Unpacks AI's Dubious Promise of a \"Better Future\"",
+      "likes": 117335
+    },
+    {
+      "id": "Ic3bD0QRVYQ",
+      "url": "https://www.youtube.com/watch?v=Ic3bD0QRVYQ",
+      "host": "Jimmy Kimmel · Oct 8",
+      "title": "Trump Won't Win the Nobel Peace Prize, Keeps Talking About Iran Bombing LA & More",
+      "likes": 93906
+    },
+    {
+      "id": "TYxJ_HXi6Cw",
+      "url": "https://www.youtube.com/watch?v=TYxJ_HXi6Cw",
+      "host": "Jimmy Kimmel · Oct 6",
+      "title": "Trump Muses About Iran Taking Out LA and San Diego, Leers at Natalie & Guillermo's Big Dance",
+      "likes": 93423
+    },
+    {
+      "id": "EfBNBMnYtwY",
+      "url": "https://www.youtube.com/watch?v=EfBNBMnYtwY",
+      "host": "Seth Meyers · Oct 8",
+      "title": "Trump's Shrinking Crowds, GOP Backlash Over LA & San Diego Comments, El-Sayed's Dare: A Closer Look",
+      "likes": 48326
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "Trump going easy on AI after tech billionaires came to the White House",
+      "joke": "May I offer a third option: No killer robots. Maybe?",
+      "context": "Also, after clips of Trump touting his rallies: \"I gotta say, I did not know Trump said true stuff at his rallies.\""
+    },
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump musing that Iran could take out Los Angeles and San Diego",
+      "joke": "Now we have our own president wishing death to America. But it's okay, 'cause we're liberals, we deserve to be bombed.",
+      "context": "Closed the bit with: \"Can somebody please change this man's diaper already?\""
+    },
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump's annual Nobel Peace Prize hopes, on announcement day",
+      "joke": "I know you were really good this year. I know you only bombed 10 fishermen and one school.",
+      "context": "Added that even Genghis Khan would say, \"This was a rebuilding year. We'll go for it next year.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Polls showing Democrats favored in the midterms",
+      "joke": "Democrats haven't been this excited since the Great Kale Fad of 2013.",
+      "context": ""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "The White House refusing to allow international election monitors at the midterms, which Fallon dubbed \"Operation Sus\"",
+      "joke": "A fake ad for the \"state-of-the-art Trump ballot counter,\" which turns out to be a paper shredder: \"They work perfectly. I just tested them with the Epstein Files!\"",
+      "context": "Aired Wednesday, October 7."
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump's rally crowds and pointing-at-things routine",
+      "joke": "It's official, we've elected President Brick from 'Anchorman.'",
+      "context": "Meyers also conceded Trump's rallies run longer than Biden's: \"It's true Biden's rallies were shorter than Trump's, but one of the reasons is he never did a tight five\" on where the stairs were."
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump floating Iran \"nuking\" Los Angeles or San Diego",
+      "joke": "Throwing in San Diego makes it weirdly specific. You got something against San Diego, bro?",
+      "context": "Thursday's segment; the night before he'd compared Trump to Brick from Anchorman, then upgraded the comparison to Ron Burgundy."
+    }
+  ],
+  "sources": [
+    "https://www.huffpost.com/entry/jon-stewart-trump-artificial-intelligence_n_6ac47c87e4b0d51e335e22b5",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-reacts-trump-take-out-la-san-diego-comment/",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-taunts-trump-nobel-peace-prize-expected-snub/",
+    "https://www.thewrap.com/culture-lifestyle/culture/the-tonight-show-jimmy-fallon-trump-midterm-elections-sus/",
+    "https://www.thewrap.com/creative-content/tv-shows/seth-meyers-trump-rallies-longer-than-biden-because-of-stairs/",
+    "https://www.thewrap.com/creative-content/tv-shows/seth-meyers-trump-is-ron-burgundy-anchorman/"
+  ]
+}

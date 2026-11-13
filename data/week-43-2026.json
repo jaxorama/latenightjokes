@@ -1,0 +1,87 @@
+{
+  "week": 43,
+  "year": 2026,
+  "date_range": "October 19–25, 2026",
+  "note": "Two weeks from the midterms, the monologues locked onto Trump's record-low approval (33% in ABC's poll, 31% in Reuters'), his seven-states-in-seven-days rally blitz, his habit of praising Republican candidates' physiques from the stump, and the five-day tenure of press secretary Katie Zacharia. Jon Stewart opened Monday with fuel-price riots in France. I couldn't find reliably quotable Kimmel lines for these specific nights, so he's left out this week.",
+  "videos": [
+    {
+      "id": "JjI3TM__A5o",
+      "url": "https://www.youtube.com/watch?v=JjI3TM__A5o",
+      "host": "Jon Stewart · Oct 19",
+      "title": "Paris Protests Erupt Over High Fuel Costs & Trump Cuts Diesel Deal with Russia",
+      "likes": 109099
+    },
+    {
+      "id": "fxJpQajxrwM",
+      "url": "https://www.youtube.com/watch?v=fxJpQajxrwM",
+      "host": "Seth Meyers · Oct 22",
+      "title": "Trump's Brain Glitches at SC Rally, Vance & Ramaswamy Spark Fury Over \"Disgusting\" Ad: A Closer Look",
+      "likes": 52182
+    },
+    {
+      "id": "5KNPkfN9BUs",
+      "url": "https://www.youtube.com/watch?v=5KNPkfN9BUs",
+      "host": "Seth Meyers · Oct 19",
+      "title": "Trump WH in Turmoil, Record-Low Approval, Zacharia & Guilfoyle Out, Golf Course Clash: A Closer Look",
+      "likes": 44818
+    },
+    {
+      "id": "qnhSK1LqHD4",
+      "url": "https://www.youtube.com/watch?v=qnhSK1LqHD4",
+      "host": "Jimmy Fallon · Oct 19",
+      "title": "Jimmy \"interviews\" Katie Zacharia about her role as press secretary",
+      "likes": 39148
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "Riots in France over fuel prices driven by the Iran war",
+      "joke": "In France, they've burned down an entire city because of a war they didn't start and aren't even any part of. And here, in the country that started the war, we're not even sure we're going to get to take back the House. I mean, we're so mad about this war, we might vote.",
+      "context": "Followed with \"Our country happens to be flame retardant\" and then walked it back to his audience: \"Honestly, even I would cancel me for that one.\""
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump's record-low approval ratings and his fixation on White House renovations, including the new helipad and a patio where the Rose Garden used to be",
+      "joke": "If our number one priority was remodeling the White House, we would have elected Chip and Joanna Gaines.",
+      "context": "On the polls: \"Wow, people do not care for this man,\" likening voters to someone who sticks a finger in an electrical socket, regrets it, forgets, and tries again four years later."
+    },
+    {
+      "host": "Seth Meyers",
+      "show": "Late Night with Seth Meyers",
+      "topic": "Trump stopping rallies to praise Republican candidates' bodies, including \"big, strong, handsome Oklahoma studs\"",
+      "joke": "This is a sign of how bad things are going for Trump. The only issue he has left to campaign on is, 'Me likey what I see.'",
+      "context": "His theory: \"Trump has always valued surface over substance. He doesn't know or care about the issues. He just knows marketing.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "The midterms, two weeks out",
+      "joke": "It's 14 days until the election and 15 days until Trump claims it was rigged.",
+      "context": "Also on Trump's rally blitz: \"The states are denial, anger, bargaining, depression, desperation, really desperate and really, really desperate.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump bringing up his cognitive tests at yet another rally",
+      "joke": "I'd love to meet the voter who is like, 'The economy is a mess, we're at war, but the man knows his giraffes.'",
+      "context": "Also on Trump's press-secretary offer: \"It's five days at the White House. Why not? It's a good gig.\""
+    },
+    {
+      "host": "Jimmy Fallon",
+      "show": "The Tonight Show",
+      "topic": "Trump repeatedly complimenting Sen. Jon Husted's backside at rallies",
+      "joke": "Honestly, it's nice to see that Trump can make men just as uncomfortable as women.",
+      "context": "Set up with: \"Trump was like, 'Welp, one poll just went up.'\""
+    }
+  ],
+  "sources": [
+    "https://www.thewrap.com/creative-content/tv-shows/jon-stewart-daily-show-cancel-me-call-us-voter-dig/",
+    "https://www.yahoo.com/entertainment/tv/articles/seth-meyers-critiques-trumps-low-113021850.html",
+    "https://www.huffpost.com/entry/seth-meyers-donald-trump-mens-bodies-rants_n_6adac983e4b04787f03a48da",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-fallon-mocks-trump-desperate-midterm-campaign-blitz/",
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-fallon-tonight-show-reaction-mocks-trump-ass-comment-gop-senator/"
+  ]
+}

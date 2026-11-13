@@ -1,0 +1,43 @@
+{
+  "week": 40,
+  "year": 2026,
+  "date_range": "September 28–October 4, 2026",
+  "note": "A short, Trump-heavy week: Jon Stewart spent Monday on Xi Jinping's White House visit, and Kimmel's show, taping at the Brooklyn Academy of Music, coined a new nickname after Trump appeared to nod off at an Oval Office event. I couldn't find reliably dated, quotable monologue lines from Meyers or Fallon for this stretch, so they're left out rather than guessed at.",
+  "videos": [
+    {
+      "id": "f31fBMgYfWY",
+      "url": "https://www.youtube.com/watch?v=f31fBMgYfWY",
+      "host": "Jon Stewart · Sep 28",
+      "title": "Will Republicans Divorce Trump Over Xi Embrace? Probably Not",
+      "likes": 110480
+    },
+    {
+      "id": "ss6bLwzpYSY",
+      "url": "https://www.youtube.com/watch?v=ss6bLwzpYSY",
+      "host": "Jimmy Kimmel · Sep 29",
+      "title": "Trump Falls Asleep on Live TV, Tells the Truth for First Time & Our Favorite Foxtrotter Guillermo",
+      "likes": 92994
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jon Stewart",
+      "show": "The Daily Show",
+      "topic": "Trump's White House welcome for Xi Jinping",
+      "joke": "Trump spent most of Xi's White House visit just pointing at s--- ... Maybe Trump's just trying to sell Xi Jinping on renting the ballroom out for his next big function.",
+      "context": "Wrapped up the segment asking how America \"even stays on the map sometimes.\""
+    },
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump appearing to doze off at an Oval Office event, right after invoking \"Sleepy Joe Biden\"",
+      "joke": "Nappy Don Trump.",
+      "context": "Kimmel played a montage of Trump seemingly dozing in his chair and couldn't stop laughing at the new nickname, a follow-up to his earlier \"Teddy Doze-evelt.\""
+    }
+  ],
+  "sources": [
+    "https://au.variety.com/2026/tv/news/jon-stewart-donald-trump-xi-jinping-40815/",
+    "https://www.tvinsider.com/1294007/kimmel-gives-trump-new-nickname-after-president-falls-asleep-again-in-meeting/",
+    "https://www.youtube.com/watch?v=ss6bLwzpYSY"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "week": 42,
+  "year": 2026,
+  "date_range": "October 12–18, 2026",
+  "note": "Kimmel got into a direct exchange with Trump this week: after Trump called him a \"loser\" at a Tennessee rally for mocking his empty seats, Kimmel's answer was to do it again. He followed up on Trump's western swing through Arizona and Montana and his boast about passing cognitive tests. I couldn't find quotable, reliably dated lines from Meyers or Fallon for this week, so they're left out.",
+  "videos": [
+    {
+      "id": "25PihIm_Nd0",
+      "url": "https://www.youtube.com/watch?v=25PihIm_Nd0",
+      "host": "Jimmy Kimmel · Oct 13",
+      "title": "Trump's New Press Secretary Has Disastrous First Day & Guillermo Booted from Dancing with the Stars",
+      "likes": 117710
+    },
+    {
+      "id": "wcGjroe8BZA",
+      "url": "https://www.youtube.com/watch?v=wcGjroe8BZA",
+      "host": "Jimmy Kimmel · Oct 12",
+      "title": "Trump Complains About Jimmy Kimmel, Throws Fit Over Not Winning Nobel Peace Prize & Guillermo",
+      "likes": 112076
+    },
+    {
+      "id": "QKppvCsSO6Y",
+      "url": "https://www.youtube.com/watch?v=QKppvCsSO6Y",
+      "host": "Jimmy Kimmel · Oct 14",
+      "title": "Trump is Laser Focused on the Midterms & Our Hero Guillermo Returns After Dancing with the Stars",
+      "likes": 93913
+    },
+    {
+      "id": "bQ17ZBbJaj8",
+      "url": "https://www.youtube.com/watch?v=bQ17ZBbJaj8",
+      "host": "Jon Stewart · Oct 12",
+      "title": "\"Meritocracy\" is just another meaningless word Trump uses, like \"diaphanous\" or \"Jimothy\"",
+      "likes": 30050
+    }
+  ],
+  "jokes": [
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump calling Kimmel a \"loser\" at a Clarksville, Tennessee rally for pointing out the empty seats",
+      "joke": "Of all the many moronic and criminal words and deeds I detailed, that's what bothers him?! Me pointing out the fact that his rallies have empty seats?? Well, in that case, let's do it again. There were many empty seats at the rally. So many empty seats.",
+      "context": "Added: \"Isn't it interesting that that never happens at a Lakers game? People just moving up to the front.\""
+    },
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump's rally stops in Arizona and Montana",
+      "joke": "It used to be when an 80-year-old traveled between Montana and Arizona, it was to treat their tuberculosis.",
+      "context": "Kimmel visibly struggled to get \"tuberculosis\" out, and admitted, \"I'm not even going to attempt that again.\""
+    },
+    {
+      "host": "Jimmy Kimmel",
+      "show": "Jimmy Kimmel Live!",
+      "topic": "Trump bragging that he aces the cognitive tests he gives himself",
+      "joke": "You, sir, you aced this test you just made up. This is the test you would give your grandfather after he fell off a stepladder.",
+      "context": "Followed with: \"If you believe that, then you will also believe I'm sending you $5,000 apiece.\""
+    }
+  ],
+  "sources": [
+    "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-responds-trump-loser-comment-rallies/",
+    "https://www.yahoo.com/entertainment/tv/articles/jimmy-kimmel-bungles-joke-trump-043415316.html",
+    "https://www.ibtimes.co.uk/jimmy-kimmel-mocks-donald-trump-after-president-declares-himself-freaking-genius-1826198"
+  ]
+}
