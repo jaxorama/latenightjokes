@@ -465,20 +465,21 @@ def render_week(data):
     )
 
 
-def render_sidebar(weeks, page):
+def week_href(w, latest):
+    if w is latest:
+        return "index.html"
+    return f"week-{w['year']}-{w['week']}.html"
+
+
+def render_sidebar(weeks, current):
+    """current: the week dict being shown, or None on the archive list page."""
     latest = weeks[0]
     items = []
     for w in weeks:
-        is_latest = w is latest
-        if is_latest:
-            href = "#top" if page == "index" else "index.html"
-        else:
-            anchor = f"week-{w['year']}-{w['week']}"
-            href = f"#{anchor}" if page == "archive" else f"archive.html#{anchor}"
         items.append(
             SIDEBAR_ITEM_TEMPLATE.format(
-                active_class=" active" if (is_latest and page == "index") else "",
-                href=href,
+                active_class=" active" if w is current else "",
+                href=week_href(w, latest),
                 week=w["week"],
                 date_range=esc(w.get("date_range", "")),
             )
@@ -508,7 +509,7 @@ def main():
             on_air_text="Updated manually, week by week",
             deck_text="The sharpest lines from this week's late-night monologues — Kimmel, the Daily Show rotation, and whoever else was on the air.",
             back_link_html="",
-            sidebar_html=render_sidebar(weeks, "index"),
+            sidebar_html=render_sidebar(weeks, latest),
             content_html=render_week(latest),
             **fonts,
         ),
@@ -516,19 +517,40 @@ def main():
     )
     print(f"Wrote {index_path} (latest: week {latest['week']}, {latest['year']})")
 
-    archive_content = (
-        "\n  ".join(render_week(w) for w in older)
-        if older
-        else '<p class="note">Nothing archived yet — check back after next week\'s update.</p>'
-    )
+    # One page per older week, so a sidebar click shows just that week.
+    for w in older:
+        path = SITE_DIR / week_href(w, latest)
+        path.write_text(
+            PAGE_TEMPLATE.format(
+                page_title=f"Week {w['week']} — The Monologue Ledger",
+                on_air_text=f"From the archive · {esc(w.get('date_range', ''))}",
+                deck_text="A past week of late-night monologue highlights. Pick another from the list, or head back to what's current.",
+                back_link_html='<a class="back-link" href="index.html">&larr; Back to the latest week</a>',
+                sidebar_html=render_sidebar(weeks, w),
+                content_html=render_week(w),
+                **fonts,
+            ),
+            encoding="utf-8",
+        )
+    print(f"Wrote {len(older)} archived week page(s)")
+
+    # archive.html stays as a simple index of every week (keeps old links working).
+    if older:
+        rows = "\n    ".join(
+            f'<p class="note"><a href="{week_href(w, latest)}"><strong>Week {w["week"]}</strong> · {esc(w.get("date_range", ""))}</a></p>'
+            for w in older
+        )
+        archive_content = f'<div class="week">\n    {rows}\n  </div>'
+    else:
+        archive_content = '<p class="note">Nothing archived yet — check back after next week\'s update.</p>'
     archive_path = SITE_DIR / "archive.html"
     archive_path.write_text(
         PAGE_TEMPLATE.format(
             page_title="Archive — The Monologue Ledger",
             on_air_text="Every earlier week, in order",
-            deck_text="The full run of past weeks. Jump to one from the list, or head back to what's current.",
+            deck_text="Pick a past week from the list.",
             back_link_html='<a class="back-link" href="index.html">&larr; Back to the latest week</a>',
-            sidebar_html=render_sidebar(weeks, "archive"),
+            sidebar_html=render_sidebar(weeks, None),
             content_html=archive_content,
             **fonts,
         ),
